@@ -1,0 +1,61 @@
+.border-radius (@radius: 5px) {  
+    -webkit-border-radius: @radius;  
+    -moz-border-radius: @radius;  
+    -o-border-radius: @radius;
+    border-radius: @radius;    
+}
+
+.box-shadow(@shadow1) {
+    -webkit-box-shadow: @shadow1;
+    -moz-box-shadow: @shadow1;
+    box-shadow: @shadow1;
+}
+
+.g-centered {
+	margin: auto;
+}
+
+.g-pull_left {
+	float: left;
+}
+
+.g-pull_right {
+	float: right;
+}
+
+.g-clearfix {
+	clear: both;
+}
+
+.g-width_normal {
+	max-width: 1024px;
+}
+
+.g-icon {
+	display: inline-block;
+	background-repeat: no-repeat;
+}
+
+.g-icon_zoom {
+	.g-icon;
+	width: 20px;
+	height: 20px;		
+	background: url('img/zoom.png');
+}
+
+.g-icon_zoom-small {
+	.g-icon;	
+	width: 12px;
+	height: 12px;		
+	background: url('img/zoom-small.png');
+}
+
+.g-icon_navigator {
+	.g-icon;	
+	width: 10px;
+	height: 10px;	
+	vertical-align: middle;
+	margin-right: 2px;
+	background-repeat: no-repeat;
+	background: url('img/navigator.png');
+}
